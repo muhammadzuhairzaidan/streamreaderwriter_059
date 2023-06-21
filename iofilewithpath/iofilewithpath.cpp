@@ -52,4 +52,3 @@ int main() {
 	else cout << "Unable to open file";
 	return 0;
 }
-
