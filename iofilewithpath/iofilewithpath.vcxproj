@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e6818ace-73df-4e71-8b46-0b4bdedc4e5c}</ProjectGuid>
-    <RootNamespace>streamreaderwriter</RootNamespace>
+    <ProjectGuid>{1b4f18a4-6170-4c4d-a888-bbd52e1464b9}</ProjectGuid>
+    <RootNamespace>iofilewithpath</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>iofile</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="streamreaderwriter.cpp" />
+    <ClCompile Include="iofilewithpath.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
